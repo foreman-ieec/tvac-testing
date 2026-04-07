@@ -1,0 +1,35 @@
+PHOTSATQM DATA ANALYSIS SUMMARY
+==================================================
+
+Analysis Date: 2025-10-16 15:20:48
+Data Directory: photsatQM
+
+DATA OVERVIEW:
+Total Records: 950,340
+Date Range: 2025-09-29 00:00:00 to 2025-10-09 23:59:59
+Total Variables: 23
+Memory Usage: 231.28 MB
+
+GENERATED VISUALIZATIONS:
+1. monitoring_tcs_with_pressure.png - Monitoring TCs (1-10) with Chamber Vacuum Pressure (log scale)
+2. monitoring_tcs_with_slave_temps.png - Monitoring TCs (1-10) with Slave Temperatures
+3. pressure_measures.png - All Pressure Measures (V0) with Logarithmic Scale
+
+CHART DETAILS:
+------------------------------
+Chart 1: Monitoring TCs (1-10) + Chamber Vacuum Pressure
+  - Primary axis: Temperature (°C) for monitoring TCs
+  - Secondary axis: Chamber Vacuum Pressure (mbar, log scale 10^-8 to 10^3)
+  - Excludes TQCM sensor
+  - Temperature range: -50°C to 75°C
+
+Chart 2: Monitoring TCs (1-10) + Slave Temperatures
+  - All monitoring TCs (1-10) on same scale
+  - Slave temperatures for Shroud and ThPlate
+  - Excludes TQCM sensor
+  - Temperature range: -50°C to 75°C
+
+Chart 3: All Pressure Measures (V0)
+  - All V0- pressure sensors
+  - Logarithmic scale for better visualization
+  - Includes: BackinglinePressure, Chamber High Vacuum, Vacuum Sensor CO2 Test
