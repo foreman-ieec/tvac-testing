@@ -1,5 +1,4 @@
-# tvac-testing
-TVAC testing chart generation
+# Generació de gràfics de la Cambra de buit tèrmica (IEEC) .py
 
 Aquest codi està dissenyat amb una estructura modular i orientada a objectes per facilitar el processament de dades de test i la seva visualització. A continuació es detallen els components clau perquè qualsevol enginyer pugui adaptar-lo a nous escenaris de prova:
 1. Biblioteques i Configuració de l'Entorn
@@ -31,3 +30,11 @@ Per aplicar aquest codi a un nou conjunt de dades, els enginyers haurien de:
     Implementar la lògica de càrrega: Tot i que el fragment no mostra el mètode de lectura complet, el docstring indica que està preparat per llegir múltiples fitxers CSV (de "Day1" a "Day11") i combinar-los en un únic DataFrame (self.combined_data).
 
 Aquesta arquitectura permet que el nucli de la gestió de fitxers i la configuració visual romangui intacte, mentre que la lògica específica de cada test es pot afegir com a nous mètodes dins de la mateixa classe.
+
+Aprofito, evidentment, per donar una alegria a qui hagi hagut de llegir això:
+
+“The journey of a thousand miles begins with a single step.”
+― Lao Tzu 
+
+“The endeavor to understand is the first and only basis of virtue.”
+― Baruch Spinoza 
